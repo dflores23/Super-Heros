@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: rgb(226, 226, 226);
+}
+
+nav {
+border: dotted 2px
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-shadow:
+  0.05em 0.05em 0 rgb(240, 240, 164),
+  0.08em 0.08em 0 rgb(209, 211, 90),
+  0.10em 0.10em 0 rgb(230, 215, 148),
+  0.12em 0.12em 0 rgb(226, 191, 120);
+}
+
+.one {
+  padding: 40px;
+  margin: 30px;   
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  
+}
+
+.img{
+  height: 100%;  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;border-radius: 6px;
+}
+
+.two {
+  font-family: 'Press Start 2P', cursive;
+  font-size: .6rem;
+  min-width: none;
+  text-align: center;
+  padding: 10px;
+  margin: 30px; 
+  border-radius: 6px;
+  border: dotted 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+    
+}  
+
+.three {
+  font-family: 'Press Start 2P', cursive;
+  font-size: .6rem;
+  min-width: none;
+  text-align: center;
+  padding: 20px;
+  margin: 30px; 
+  border: dotted 1px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+    
+}  
+.four {
+  font-family: 'Press Start 2P', cursive;
+  font-size: .6rem;
+  min-width: none;
+  text-align: center;
+  padding: 20px;
+  margin: 30px; 
+  border: dotted 1px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.five {
+  font-family: 'Press Start 2P', cursive;
+  font-size: .6rem;
+  min-width: none;
+  text-align: center;
+  padding: 20px;
+  margin: 30px; 
+  border: dotted 1px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.six {
+  font-family: 'Press Start 2P', cursive;
+  font-size: .6rem;
+  min-width: none;
+  text-align: center;
+  padding: 20px;
+  margin: 30px; 
+  border: dotted 1px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.seven {
+  font-size: .7rem;
+  text-shadow:
+  0.05em 0.05em 0 rgb(240, 240, 164),
+  0.08em 0.08em 0 rgb(209, 211, 90),
+  0.10em 0.10em 0 rgb(230, 215, 148),
+  0.12em 0.12em 0 rgb(226, 191, 120);
+}
