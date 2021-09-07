@@ -15,3 +15,12 @@ diplays information about super heros such as:
 * Intelligence
 * Power 
 * Speed
+
+USED
+
+* html
+* css
+* javaScript
+* jQuery
+* Google Font
+* API from superheroapi.com
