@@ -29,7 +29,7 @@ function handleGetData(event){
       function(data){
        console.log(data);
        superHero = data;
-       render($input.val("name"));
+       render($input.val());
     
 
       },
