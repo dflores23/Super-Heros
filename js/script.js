@@ -24,7 +24,7 @@ function handleGetData(event){
     event.preventDefault();
 
     $.ajax({
-        url: `https://www.superheroapi.com/api.php/1025897390981809/search/${$input.val()}`,    
+        url: `https://www.superheroapi.com/api.php/1025897390981809/${$input.val()}`,    
     }).then(
       function(data){
        console.log(data);
