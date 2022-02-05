@@ -1,4 +1,4 @@
-diplays information about super heros such as:
+display information about random super heros such as:
 
 * Name 
 * Gender

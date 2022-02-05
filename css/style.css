@@ -1,116 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 nav {
-border: dotted 2px;
-border-radius: 8px;
+  border: dotted 2px;
+  border-radius: 8px;
 }
 
 h1 {
-  font-family: 'Press Start 2P', cursive;
+  font-family: "Press Start 2P", cursive;
   font-size: 3rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  text-shadow:
-  0.05em 0.05em 0 rgb(240, 240, 164),
-  0.08em 0.08em 0 rgb(209, 211, 90),
-  0.10em 0.10em 0 rgb(230, 215, 148),
-  0.12em 0.12em 0 rgb(226, 191, 120);
+  text-shadow: 0.05em 0.05em 0 rgb(240, 240, 164),
+    0.08em 0.08em 0 rgb(209, 211, 90), 0.1em 0.1em 0 rgb(230, 215, 148),
+    0.12em 0.12em 0 rgb(226, 191, 120);
 }
 
 .one {
   padding: 40px;
-  margin: 30px;   
+  margin: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: center; 
-  
+  justify-content: center;
 }
 
-.img{
-  height: 100%;  
+.img {
+  height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;border-radius: 10px;
+  justify-content: center;
+  border-radius: 10px;
   border-radius: 10px solid transparent;
   padding: 15px;
-  border-image-source: url(border.png);  
+  border-image-source: url(border.png);
   border-image-slice: 40;
 }
 
-/* .flip-box {
-  background-color: transparent;
-  width: 300px;
-  height: 200px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
-} */
-
-/* .flip-box-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-box:hover .flip-box-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-box-front, .flip-box-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-box-front {
-  background-color: #bbb;
-  color: black;
-} */
-
-
-
 .two {
-  font-family: 'Press Start 2P', cursive;
-  font-size: .6rem;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.6rem;
   min-width: none;
   text-align: center;
   padding: 10px;
-  margin: 30px; 
+  margin: 30px;
   border-radius: 6px;
   border: dotted 1px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-    
-}  
+}
 
 .three {
-  font-family: 'Press Start 2P', cursive;
-  font-size: .6rem;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.6rem;
   min-width: none;
   text-align: center;
   padding: 20px;
-  margin: 30px; 
+  margin: 30px;
   border: dotted 1px;
   border-radius: 6px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-    
-}  
+}
 .four {
-  font-family: 'Press Start 2P', cursive;
-  font-size: .6rem;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.6rem;
   min-width: none;
   text-align: center;
   padding: 20px;
-  margin: 30px; 
+  margin: 30px;
   border: dotted 1px;
   border-radius: 6px;
   display: flex;
@@ -119,12 +78,12 @@ h1 {
 }
 
 .five {
-  font-family: 'Press Start 2P', cursive;
-  font-size: .6rem;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.6rem;
   min-width: none;
   text-align: center;
   padding: 20px;
-  margin: 30px; 
+  margin: 30px;
   border: dotted 1px;
   border-radius: 6px;
   display: flex;
@@ -133,12 +92,12 @@ h1 {
 }
 
 .six {
-  font-family: 'Press Start 2P', cursive;
-  font-size: .6rem;
+  font-family: "Press Start 2P", cursive;
+  font-size: 0.6rem;
   min-width: none;
   text-align: center;
   padding: 20px;
-  margin: 30px; 
+  margin: 30px;
   border: dotted 1px;
   border-radius: 6px;
   display: flex;
@@ -147,10 +106,8 @@ h1 {
 }
 
 .seven {
-  font-size: .7rem;
-  text-shadow:
-  0.05em 0.05em 0 rgb(240, 240, 164),
-  0.08em 0.08em 0 rgb(209, 211, 90),
-  0.10em 0.10em 0 rgb(230, 215, 148),
-  0.12em 0.12em 0 rgb(226, 191, 120);
+  font-size: 0.7rem;
+  text-shadow: 0.05em 0.05em 0 rgb(240, 240, 164),
+    0.08em 0.08em 0 rgb(209, 211, 90), 0.1em 0.1em 0 rgb(230, 215, 148),
+    0.12em 0.12em 0 rgb(226, 191, 120);
 }
